@@ -7,7 +7,7 @@ const houseSchema = new Schema({
     type: String,
   },
   _id: {
-    type: String,
+    type: mongoose.Types.ObjectId,
   },
   last_scraped: {
     type: String,

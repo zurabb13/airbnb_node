@@ -35,7 +35,7 @@ export const getById = async (req, res) => {
       },
     });
   } catch (err) {
-    res.statsu(200).json({
+    res.status(200).json({
       status: 'fail',
       message: err,
     });
